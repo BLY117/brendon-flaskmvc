@@ -57,3 +57,5 @@ def create_app(config={}):
     setup_jwt(app)
     app.app_context().push()
     return app
+
+app = create_app()
